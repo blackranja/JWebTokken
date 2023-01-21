@@ -1,0 +1,32 @@
+{
+  "name": "jwebtokken",
+  "version": "1.0.0",
+  "description": "Json Web Tokken basics",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackranja/JWebTokken.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackranja/JWebTokken/issues"
+  },
+  "homepage": "https://github.com/blackranja/JWebTokken#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.4"
+  }
+}
